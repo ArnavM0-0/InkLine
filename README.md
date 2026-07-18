@@ -1,4 +1,4 @@
-# InkLine ✒️ — AI Email Autocompletion
+# InkLine - AI Email Autocompletion
 
 > A Gmail Smart Compose–style email autocompletion system: a sequence-to-sequence model trained on the Enron email corpus, extended with **[attention / beam search / your extension here]**, and deployed for real-time in-browser inference with TensorFlow.js.
 
