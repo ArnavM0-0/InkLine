@@ -35,7 +35,6 @@ Suggestion ◀── argmax/beam ◀── Decoder (GRU + Dense) ◀──┘
 | Model | Params | Perplexity | ExactMatch@1 | Latency (ms) |
 |---|---|---|---|---|
 | Bi-GRU baseline (192/128) | 2.2M | 1.84 | — | — |
-| + Attention *(mine)* | 24.50 | 16.80 | 15%
 
 Sample completions:
 
