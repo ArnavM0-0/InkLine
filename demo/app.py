@@ -13,6 +13,9 @@ Setup on huggingface.co:
   4. The Space builds automatically and gives you a public URL.
 """
 
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 import json
 import time
 
