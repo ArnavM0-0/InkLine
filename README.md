@@ -88,7 +88,6 @@ TensorFlow / Keras · TensorFlow.js · NumPy · Pandas · Web Workers · GitHub 
 
 - **Data quality dominates** — the Enron dataset lacks conversation threading, so the model conditions only on the current sentence prefix; most of the project's effort went into preprocessing.
 - **Latency vs. accuracy trade-off** — chose a 2.2M-parameter model over the best-scoring 3.2M-parameter one because inference latency is user-facing in an autocomplete product.
-- **[Your own lesson from your extension]** — e.g., why attention helped most on longer prefixes, or how beam width affected suggestion diversity.
 
 ## Acknowledgments
 
